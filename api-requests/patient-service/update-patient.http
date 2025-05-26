@@ -2,7 +2,7 @@ PUT http://localhost:4000/patients/e0cb491a-c8ab-4115-ae26-cd88e8662298
 Content-Type: application/json
 
 {
-  "name": "erick",
+  "name": "erick UPDATED",
   "email": "test@gmail.com",
   "address": "180 Lisbon St Manila",
   "dateOfBirth": "1991-03-03"
