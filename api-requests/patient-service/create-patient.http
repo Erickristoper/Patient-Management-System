@@ -2,8 +2,8 @@ POST http://localhost:4000/patients
 Content-Type: application/json
 
 {
-  "name": "Eric",
-  "email": "test@gmail.com",
+  "name": "Erico",
+  "email": "testsssz@gmail.com",
   "address": "180 Lisbon St Manila",
   "dateOfBirth": "1991-03-03",
   "registeredDate": "2025-05-23"
