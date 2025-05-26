@@ -1,12 +1,5 @@
 package com.may.patientservice.dto;
 
-import jakarta.persistence.Column;
-import jakarta.validation.constraints.Email;
-import jakarta.validation.constraints.NotNull;
-
-import java.time.LocalDate;
-import java.util.UUID;
-
 public class PatientResponseDTO {
     private String id;
     private String name;
