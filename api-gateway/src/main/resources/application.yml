@@ -18,6 +18,7 @@ spring:
             - Path=/api/patients/**
           filters:
             - StripPrefix=1
+            - JwtValidation
 
           ## REST client sends http://localhost:4004/api/patients
           ## rewrites the request in a way that it can call the internal request
@@ -29,5 +30,6 @@ spring:
             - Path=/api-docs/patients
           filters:
             - RewritePath= /api-docs/patients, /v3/api-docs
+            - JwtValidation
           ## http://localhost:4004/api-docs/patients  > rest client
           ## http://patient-service:4000/v3/api-docs > gateway
