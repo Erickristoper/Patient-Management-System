@@ -5,7 +5,7 @@ spring:
   cloud:
     gateway:
       routes:
-        - id: patient-service-route
+        - id: auth-service-route
           uri: http://auth-service:4006
           predicates:
             - Path=/auth/**
